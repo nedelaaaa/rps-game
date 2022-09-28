@@ -3,7 +3,7 @@ turns = ['rock', 'paper', 'scissors']
 
 while(True):
     human_turn = input("Enter your turn, or type exit: ")
-    computer_turn = random.choice(turns)
+     computer_turn = random.choice(turns)
 
     if human_turn == 'exit':
         print('Thank you for playing! Bye bye')
